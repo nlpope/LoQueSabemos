@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		40405C542CCD64D1006E2AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C532CCD64D1006E2AE6 /* AppDelegate.swift */; };
 		40405C562CCD64D1006E2AE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C552CCD64D1006E2AE6 /* SceneDelegate.swift */; };
-		40405C582CCD64D1006E2AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C572CCD64D1006E2AE6 /* ViewController.swift */; };
+		40405C582CCD64D1006E2AE6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C572CCD64D1006E2AE6 /* HomeVC.swift */; };
 		40405C5B2CCD64D1006E2AE6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40405C5A2CCD64D1006E2AE6 /* Base */; };
 		40405C5E2CCD64D1006E2AE6 /* LoQueSabemos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40405C5C2CCD64D1006E2AE6 /* LoQueSabemos.xcdatamodeld */; };
 		40405C602CCD64D7006E2AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40405C5F2CCD64D7006E2AE6 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		40405C502CCD64D1006E2AE6 /* LoQueSabemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoQueSabemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40405C532CCD64D1006E2AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40405C552CCD64D1006E2AE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40405C572CCD64D1006E2AE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40405C572CCD64D1006E2AE6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		40405C5A2CCD64D1006E2AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40405C5D2CCD64D1006E2AE6 /* LoQueSabemos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoQueSabemos.xcdatamodel; sourceTree = "<group>"; };
 		40405C5F2CCD64D7006E2AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,14 +60,22 @@
 			children = (
 				40405C532CCD64D1006E2AE6 /* AppDelegate.swift */,
 				40405C552CCD64D1006E2AE6 /* SceneDelegate.swift */,
-				40405C572CCD64D1006E2AE6 /* ViewController.swift */,
+				40405C6A2CCD6516006E2AE6 /* Screens */,
 				40405C592CCD64D1006E2AE6 /* Main.storyboard */,
-				40405C5F2CCD64D7006E2AE6 /* Assets.xcassets */,
 				40405C612CCD64D7006E2AE6 /* LaunchScreen.storyboard */,
+				40405C5F2CCD64D7006E2AE6 /* Assets.xcassets */,
 				40405C642CCD64D7006E2AE6 /* Info.plist */,
 				40405C5C2CCD64D1006E2AE6 /* LoQueSabemos.xcdatamodeld */,
 			);
 			path = LoQueSabemos;
+			sourceTree = "<group>";
+		};
+		40405C6A2CCD6516006E2AE6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				40405C572CCD64D1006E2AE6 /* HomeVC.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40405C582CCD64D1006E2AE6 /* ViewController.swift in Sources */,
+				40405C582CCD64D1006E2AE6 /* HomeVC.swift in Sources */,
 				40405C5E2CCD64D1006E2AE6 /* LoQueSabemos.xcdatamodeld in Sources */,
 				40405C542CCD64D1006E2AE6 /* AppDelegate.swift in Sources */,
 				40405C562CCD64D1006E2AE6 /* SceneDelegate.swift in Sources */,
