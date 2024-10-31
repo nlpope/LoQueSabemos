@@ -11,9 +11,12 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpNavigation()
     }
-    // test notez
-
-
+    
+    
+    func setUpNavigation() {
+        
+    }
 }
 

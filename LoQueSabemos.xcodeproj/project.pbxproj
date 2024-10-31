@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40301B0E2CD3FE41002B2CDC /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40301B0D2CD3FE41002B2CDC /* UIViewController+Ext.swift */; };
+		40301B112CD3FFC5002B2CDC /* LQSAlertChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40301B102CD3FFC5002B2CDC /* LQSAlertChildVC.swift */; };
+		40301B152CD400DF002B2CDC /* LQSAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40301B142CD400DF002B2CDC /* LQSAlertContainerView.swift */; };
 		40405C542CCD64D1006E2AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C532CCD64D1006E2AE6 /* AppDelegate.swift */; };
 		40405C562CCD64D1006E2AE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C552CCD64D1006E2AE6 /* SceneDelegate.swift */; };
 		40405C582CCD64D1006E2AE6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405C572CCD64D1006E2AE6 /* HomeVC.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40301B0D2CD3FE41002B2CDC /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		40301B102CD3FFC5002B2CDC /* LQSAlertChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQSAlertChildVC.swift; sourceTree = "<group>"; };
+		40301B142CD400DF002B2CDC /* LQSAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQSAlertContainerView.swift; sourceTree = "<group>"; };
 		40405C502CCD64D1006E2AE6 /* LoQueSabemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoQueSabemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40405C532CCD64D1006E2AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40405C552CCD64D1006E2AE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40301B0F2CD3FE47002B2CDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40301B0D2CD3FE41002B2CDC /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40301B122CD3FFD5002B2CDC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				40301B132CD3FFF6002B2CDC /* ChildVCs */,
+				40301B162CD400F5002B2CDC /* ContainerViews */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		40301B132CD3FFF6002B2CDC /* ChildVCs */ = {
+			isa = PBXGroup;
+			children = (
+				40301B102CD3FFC5002B2CDC /* LQSAlertChildVC.swift */,
+			);
+			path = ChildVCs;
+			sourceTree = "<group>";
+		};
+		40301B162CD400F5002B2CDC /* ContainerViews */ = {
+			isa = PBXGroup;
+			children = (
+				40301B142CD400DF002B2CDC /* LQSAlertContainerView.swift */,
+			);
+			path = ContainerViews;
+			sourceTree = "<group>";
+		};
 		40405C472CCD64D0006E2AE6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +97,11 @@
 		40405C522CCD64D1006E2AE6 /* LoQueSabemos */ = {
 			isa = PBXGroup;
 			children = (
+				40301B0F2CD3FE47002B2CDC /* Extensions */,
+				40405C6A2CCD6516006E2AE6 /* Screens */,
+				40301B122CD3FFD5002B2CDC /* CustomViews */,
 				40405C532CCD64D1006E2AE6 /* AppDelegate.swift */,
 				40405C552CCD64D1006E2AE6 /* SceneDelegate.swift */,
-				40405C6A2CCD6516006E2AE6 /* Screens */,
 				40405C592CCD64D1006E2AE6 /* Main.storyboard */,
 				40405C612CCD64D7006E2AE6 /* LaunchScreen.storyboard */,
 				40405C5F2CCD64D7006E2AE6 /* Assets.xcassets */,
@@ -150,9 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				40405C582CCD64D1006E2AE6 /* HomeVC.swift in Sources */,
+				40301B152CD400DF002B2CDC /* LQSAlertContainerView.swift in Sources */,
 				40405C5E2CCD64D1006E2AE6 /* LoQueSabemos.xcdatamodeld in Sources */,
 				40405C542CCD64D1006E2AE6 /* AppDelegate.swift in Sources */,
 				40405C562CCD64D1006E2AE6 /* SceneDelegate.swift in Sources */,
+				40301B0E2CD3FE41002B2CDC /* UIViewController+Ext.swift in Sources */,
+				40301B112CD3FFC5002B2CDC /* LQSAlertChildVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
